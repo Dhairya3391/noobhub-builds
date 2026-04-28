@@ -1,3 +1,40 @@
+# noobhub TUI Controls
+
+## Keyboard Shortcuts
+
+### General Navigation
+
+| Key | Action |
+|-----|--------|
+| `↑` / `↓` or `j` / `k` | Move up/down in lists |
+| `enter` | Select / Action |
+| `esc` | Go back |
+| `q` or `ctrl+c` | Quit application |
+| `ctrl+h` | Go to home |
+
+### Search View
+
+| Key | Action |
+|-----|--------|
+| `space` | Focus search bar |
+| `ctrl+p` | Open player selection menu |
+| `enter` | Play selected item |
+
+### Episodes View
+
+| Key | Action |
+|-----|--------|
+| `/` | Filter episodes |
+| `tab` / `shift+tab` | Toggle content type (+/-) |
+
+### Preview View
+
+| Key | Action |
+|-----|--------|
+| `enter` or `p` | Play |
+
+---
+
 # Environment Variables
 
 This application requires the following environment variables to be set:
