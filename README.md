@@ -1,3 +1,11 @@
+# noobhub Builds
+This repository contains the pre-compiled binaries for noobhub.
+
+## Binary Downloads
+Binaries are organized by platform in their respective directories.
+
+---
+
 # noobhub TUI Controls
 
 ## Keyboard Shortcuts
