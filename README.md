@@ -40,6 +40,7 @@ Binaries are organized by platform in their respective directories.
 | Key | Action |
 |-----|--------|
 | `enter` or `p` | Play |
+| `d` | Download |
 
 ---
 
@@ -53,6 +54,7 @@ This application requires the following environment variables to be set:
 | `OPENSUBTITLES_USERNAME` | Username for OpenSubtitles |
 | `OPENSUBTITLES_PASSWORD` | Password for OpenSubtitles |
 | `OPENSUBTITLES_API_KEY` | API key for OpenSubtitles |
+| `NOOBHUB_DOWNLOAD_DIR` | Directory where downloaded files are saved (default: `./downloads`) |
 
 ## Setting Environment Variables
 
@@ -63,6 +65,7 @@ export TMDB_API_KEY="your_tmdb_api_key"
 export OPENSUBTITLES_USERNAME="your_username"
 export OPENSUBTITLES_PASSWORD="your_password"
 export OPENSUBTITLES_API_KEY="your_opensubtitles_api_key"
+export NOOBHUB_DOWNLOAD_DIR="your_download_dir"
 ```
 
 Then restart your shell or run `source ~/.zshrc`.
