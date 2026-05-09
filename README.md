@@ -15,6 +15,8 @@ Binaries are organized by platform in their respective directories.
 | Key | Action |
 |-----|--------|
 | `↑` / `↓` or `j` / `k` | Move up/down in lists |
+| `h` / `H` | Open Watch History |
+| `s` / `S` | Open Settings (Auth Trakt/AniList) |
 | `enter` | Select / Action |
 | `esc` | Go back |
 | `q` or `ctrl+c` | Quit application |
@@ -26,27 +28,35 @@ Binaries are organized by platform in their respective directories.
 |-----|--------|
 | `space` | Focus search bar |
 | `ctrl+p` | Open player selection menu |
-| `enter` | Play selected item |
+| `enter` | Choose selected item |
 
 ### Episodes View
 
 | Key | Action |
 |-----|--------|
 | `/` | Filter episodes |
-| `tab` / `shift+tab` | Toggle content type (+/-) |
+| `tab` / `shift+tab` | Toggle Audio (Anime only) |
+| `enter` | Resolve and go to Preview |
 
 ### Preview View
 
 | Key | Action |
 |-----|--------|
-| `enter` or `p` | Play |
-| `d` | Download |
+| `enter` or `p` | Start Playback |
+| `d` | Download episode |
+| `tab` / `shift+tab` | Cycle playback sources |
+
+### Download Progress
+
+| Key | Action |
+|-----|--------|
+| `x` | Cancel active download |
 
 ---
 
-# Environment Variables
+# Configuration
 
-This application requires the following environment variables to be set:
+NoobHub works out-of-the-box, but you can set these variables to unlock extra features:
 
 | Variable | Description |
 |----------|-------------|
@@ -55,6 +65,7 @@ This application requires the following environment variables to be set:
 | `OPENSUBTITLES_PASSWORD` | Password for OpenSubtitles |
 | `OPENSUBTITLES_API_KEY` | API key for OpenSubtitles |
 | `NOOBHUB_DOWNLOAD_DIR` | Directory where downloaded files are saved (default: `./downloads`) |
+
 
 ## Setting Environment Variables
 
